@@ -12,7 +12,7 @@ $ yarn build
 
 ## configure extension
 
-1. edit `src/configs/terraform.ts` and `public/manifest.json`
+1. edit `src/configs/terraform.ts`
 
 1. run `$ yarn build`
 

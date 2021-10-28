@@ -7,7 +7,10 @@ const CopyPlugin = require('copy-webpack-plugin')
 module.exports = {
   mode: process.env.NODE_ENV || 'development',
   devtool: 'inline-source-map',
-  entry: { content: path.join(__dirname, 'src', 'main') },
+  entry: {
+    content: path.join(__dirname, 'src', 'main'),
+    background: path.join(__dirname, 'src', 'background')
+  },
   module: {
     rules: [
       {
